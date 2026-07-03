@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Node / Frontend Build
 node_modules/
 dist/
@@ -38,6 +39,26 @@ share/python-wheels/
 .settings/
 Thumbs.db
 db.json
+=======
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+>>>>>>> 31f8bc87acdd5a052fdea7220782b888c62abe61
 .DS_Store
 *.suo
 *.ntvs*
