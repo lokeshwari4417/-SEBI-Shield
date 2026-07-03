@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-navy-950 text-gray-100 font-sans antialiased selection:bg-accent-blue/30 selection:text-white;
+  }
+}
+
+@layer utilities {
+  /* custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #060B13;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1C2E4C;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #28416A;
+  }
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(17, 29, 50, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-premium {
+  background: linear-gradient(135deg, rgba(17, 29, 50, 0.6) 0%, rgba(11, 18, 32, 0.8) 100%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(229, 186, 115, 0.1);
+}
+
+.glass-input {
+  background: rgba(6, 11, 19, 0.6);
+  border: 1px solid rgba(28, 46, 76, 0.8);
+  transition: all 0.3s ease;
+}
+
+.glass-input:focus {
+  border-color: #38BDF8;
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.15);
+  outline: none;
+}
+
+/* Custom visual pulse wave for scanning status */
+@keyframes scanningLine {
+  0% {
+    top: 0%;
+  }
+  50% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+.scan-line {
+  animation: scanningLine 3s infinite linear;
+}
+
+/* Floating keyframe */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.floating-element {
+  animation: float 4s infinite ease-in-out;
+}
