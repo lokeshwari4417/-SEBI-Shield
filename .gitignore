@@ -1,0 +1,46 @@
+# Node / Frontend Build
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+.env.local
+
+# Python / Backend Build & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs & System files
+.vscode/
+.idea/
+.project
+.pydevproject
+.settings/
+Thumbs.db
+db.json
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
