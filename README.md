@@ -97,7 +97,3 @@ python -m pytest
 - **Phase 2**: Core API partnerships with leading exchanges (NSE/BSE) and stockbrokers (Zerodha, Groww) to inspect registrations inline inside trading applications.
 - **Phase 3**: Mass deployment via **WhatsApp Business API** sandbox handles to reach retail investors in Tier-2/3 cities.
 
----
-
-## ⚠️ Disclaimer
-*Prototype built for hackathon demonstration purposes. The risk indicators, synthetic media assessments, and registry matches are for ill
