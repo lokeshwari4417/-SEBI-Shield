@@ -100,4 +100,4 @@ python -m pytest
 ---
 
 ## ⚠️ Disclaimer
-*Prototype built for hackathon demonstration purposes. The risk indicators, synthetic media assessments, and registry matches are for illustrative evaluation. Not 
+*Prototype built for hackathon demonstration purposes. The risk indicators, synthetic media assessments, and registry matches are for ill
