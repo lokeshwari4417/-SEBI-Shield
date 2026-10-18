@@ -1,6 +1,4 @@
 # SEBI Shield 🛡️
-
-
 **AI-Powered Deepfake & Phishing Detection for Indian Securities Market Investors**
 
 SEBI Shield is a high-fidelity prototype web application developed for the **SEBI Securities Market TechSprint (GFF 2026)**. The application targets the challenge track *"AI-driven detection of synthetic media and phishing attacks in securities markets,"* protecting retail investors from fraudulent investment tips, deepfaked advisor promotions, typosquatted broker websites, and unverified advisory chats received on WhatsApp, Telegram, or SMS.
